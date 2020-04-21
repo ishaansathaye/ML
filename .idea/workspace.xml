@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a39ac53-d6bc-455e-9948-46c9c2dac34b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/matplotlib/customization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib/data from files.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/data from files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib/graphing data from internet.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/graphing data from internet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/customization.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/customization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587260212904</updated>
       <workItem from="1587260215802" duration="43000" />
-      <workItem from="1587324077719" duration="18087000" />
+      <workItem from="1587324077719" duration="20291000" />
     </task>
     <servers />
   </component>
@@ -189,37 +187,37 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="226" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1587365228666" />
-    <state width="414" height="128" key="GridCell.Tab.0.bottom" timestamp="1587439371794">
+    <state width="361" height="128" key="GridCell.Tab.0.bottom" timestamp="1587447035273">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="414" height="128" key="GridCell.Tab.0.bottom/0.0.1280.752@0.0.1280.752" timestamp="1587438808405" />
-    <state width="414" height="128" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587439371794" />
+    <state width="361" height="128" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587447035273" />
     <state width="916" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587365564677" />
-    <state width="414" height="128" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1587439098292" />
+    <state width="520" height="128" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1587446882639" />
     <state width="916" height="344" key="GridCell.Tab.0.bottom/0.23.1920.1129@0.23.1920.1129" timestamp="1587365854296" />
-    <state width="414" height="128" key="GridCell.Tab.0.center" timestamp="1587439371793">
+    <state width="361" height="128" key="GridCell.Tab.0.center" timestamp="1587447035272">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="414" height="128" key="GridCell.Tab.0.center/0.0.1280.752@0.0.1280.752" timestamp="1587438808404" />
-    <state width="414" height="128" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587439371793" />
+    <state width="361" height="128" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587447035272" />
     <state width="916" height="344" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587365564675" />
-    <state width="414" height="128" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1587439098290" />
+    <state width="520" height="128" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1587446882635" />
     <state width="916" height="344" key="GridCell.Tab.0.center/0.23.1920.1129@0.23.1920.1129" timestamp="1587365854293" />
-    <state width="414" height="128" key="GridCell.Tab.0.left" timestamp="1587439371792">
+    <state width="361" height="128" key="GridCell.Tab.0.left" timestamp="1587447035272">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="414" height="128" key="GridCell.Tab.0.left/0.0.1280.752@0.0.1280.752" timestamp="1587438808403" />
-    <state width="414" height="128" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587439371792" />
+    <state width="361" height="128" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587447035272" />
     <state width="916" height="344" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587365564674" />
-    <state width="414" height="128" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1587439098288" />
+    <state width="520" height="128" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1587446882630" />
     <state width="916" height="344" key="GridCell.Tab.0.left/0.23.1920.1129@0.23.1920.1129" timestamp="1587365854292" />
-    <state width="414" height="128" key="GridCell.Tab.0.right" timestamp="1587439371793">
+    <state width="361" height="128" key="GridCell.Tab.0.right" timestamp="1587447035273">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="414" height="128" key="GridCell.Tab.0.right/0.0.1280.752@0.0.1280.752" timestamp="1587438808404" />
-    <state width="414" height="128" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587439371793" />
+    <state width="361" height="128" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587447035273" />
     <state width="916" height="344" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587365564676" />
-    <state width="414" height="128" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1587439098291" />
+    <state width="520" height="128" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1587446882637" />
     <state width="916" height="344" key="GridCell.Tab.0.right/0.23.1920.1129@0.23.1920.1129" timestamp="1587365854295" />
     <state x="0" y="239" key="SettingsEditor" timestamp="1587350481704">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -231,7 +229,7 @@
     <state x="-15" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1587367226499" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ML$costomization.coverage" NAME="customization Coverage Results" MODIFIED="1587439525924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$costomization.coverage" NAME="customization Coverage Results" MODIFIED="1587446882576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/ML$pie_plots.coverage" NAME="pie plots Coverage Results" MODIFIED="1587365533099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/ML$unix_time.coverage" NAME="unix time Coverage Results" MODIFIED="1587438068319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/ML$data_from_files.coverage" NAME="data from files Coverage Results" MODIFIED="1587432764588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
