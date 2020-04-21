@@ -5,6 +5,7 @@ import urllib.request as requests
 import requests
 from pandas_datareader import data, wb
 
+
 # From tutorial (not working code)
 # def bytespdate2num(fmt, encoding='utf-8'):
 #     strconverter = mdates.strpdate2num(fmt)
@@ -30,7 +31,8 @@ from pandas_datareader import data, wb
 #             if 'Volume' not in line:
 #                 stockData.append(line)
 #
-#     date, openp, highp, lowp, closep, volume = np.loadtxt(stockData, delimiter=',', unpack=True, converters={0: bytespdate2num('%Y-%m-%d')})
+# date, openp, highp, lowp, closep, volume = np.loadtxt(stockData, delimiter=',', unpack=True, converters={0:
+# bytespdate2num('%Y-%m-%d')})
 #
 #     plt.plot_date(date, closep)
 #
@@ -48,9 +50,11 @@ def graph_data(stock):
 
     plt.xlabel('Date')
     plt.ylabel('Price')
-    plt.title('Interesting Graph')
+    plt.title(stock + ' stock')
     plt.legend()
     plt.show()
 
-graph_data('AAPL')
+stockName = input("What is the stock name: ")
+graph_data(stockName)
+
 

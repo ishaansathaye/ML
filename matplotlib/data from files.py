@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 
 # Part 1: Without numpy
 # import csv
@@ -16,9 +17,13 @@ import numpy as np
 # plt.plot(x, y, label='loaded from file')
 
 # Part 2: Using numpy
-x, y = np.loadtxt('example', delimiter=',', unpack=True) #unpack: unpack the variables, only two variables
-plt.plot(x, y, label='loaded from file')
+# x, y = np.loadtxt('example', delimiter=',', unpack=True) #unpack: unpack the variables, only two variables
+# plt.plot(x, y, label='loaded from file')
 
+# Part 3: Using pandas
+x = pd.read_csv('example', usecols=[0])
+y = pd.read_csv('example', usecols=[1])
+plt.plot(x, y, label='loaded from file')
 
 
 plt.xlabel('X-Values')
