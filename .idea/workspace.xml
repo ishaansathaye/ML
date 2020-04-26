@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a39ac53-d6bc-455e-9948-46c9c2dac34b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/matplotlib/annotations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/live graphs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/styles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/subplot &amp; stocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/subplots.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib/candlestick OHLC graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/candlestick OHLC graphs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/example" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/example" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +48,8 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.candlestick OHLC graphs">
-    <configuration name="candlestick OHLC graphs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.subplot &amp; stocks">
+    <configuration name="annotations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,7 +62,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/candlestick OHLC graphs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/annotations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="customization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="live graphs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,7 +84,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/customization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/live graphs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data from files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="styles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +106,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/data from files.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/styles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="graphing data from internet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="subplot &amp; stocks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +128,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/graphing data from internet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/subplot &amp; stocks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scatter plots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="subplots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +150,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/scatter plots.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/subplots.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.candlestick OHLC graphs" />
-        <item itemvalue="Python.graphing data from internet" />
-        <item itemvalue="Python.data from files" />
-        <item itemvalue="Python.customization" />
-        <item itemvalue="Python.scatter plots" />
+        <item itemvalue="Python.subplot &amp; stocks" />
+        <item itemvalue="Python.subplots" />
+        <item itemvalue="Python.annotations" />
+        <item itemvalue="Python.live graphs" />
+        <item itemvalue="Python.styles" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587260212904</updated>
       <workItem from="1587260215802" duration="43000" />
-      <workItem from="1587324077719" duration="24060000" />
+      <workItem from="1587324077719" duration="24184000" />
+      <workItem from="1587451082019" duration="11274000" />
     </task>
     <servers />
   </component>
@@ -187,37 +193,37 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="226" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1587365228666" />
-    <state width="605" height="128" key="GridCell.Tab.0.bottom" timestamp="1587450895188">
+    <state width="588" height="177" key="GridCell.Tab.0.bottom" timestamp="1587871114094">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="414" height="128" key="GridCell.Tab.0.bottom/0.0.1280.752@0.0.1280.752" timestamp="1587438808405" />
-    <state width="605" height="128" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587450895188" />
-    <state width="916" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587365564677" />
-    <state width="605" height="128" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1587450604031" />
+    <state width="433" height="177" key="GridCell.Tab.0.bottom/0.0.1280.752@0.0.1280.752" timestamp="1587865179197" />
+    <state width="588" height="177" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587871114094" />
+    <state width="915" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587864444482" />
+    <state width="588" height="177" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1587870448484" />
     <state width="916" height="344" key="GridCell.Tab.0.bottom/0.23.1920.1129@0.23.1920.1129" timestamp="1587365854296" />
-    <state width="605" height="128" key="GridCell.Tab.0.center" timestamp="1587450895187">
+    <state width="588" height="177" key="GridCell.Tab.0.center" timestamp="1587871114092">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="414" height="128" key="GridCell.Tab.0.center/0.0.1280.752@0.0.1280.752" timestamp="1587438808404" />
-    <state width="605" height="128" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587450895187" />
-    <state width="916" height="344" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587365564675" />
-    <state width="605" height="128" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1587450604028" />
+    <state width="433" height="177" key="GridCell.Tab.0.center/0.0.1280.752@0.0.1280.752" timestamp="1587865179196" />
+    <state width="588" height="177" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587871114092" />
+    <state width="915" height="345" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587864444480" />
+    <state width="588" height="177" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1587870448481" />
     <state width="916" height="344" key="GridCell.Tab.0.center/0.23.1920.1129@0.23.1920.1129" timestamp="1587365854293" />
-    <state width="605" height="128" key="GridCell.Tab.0.left" timestamp="1587450895186">
+    <state width="588" height="177" key="GridCell.Tab.0.left" timestamp="1587871114090">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="414" height="128" key="GridCell.Tab.0.left/0.0.1280.752@0.0.1280.752" timestamp="1587438808403" />
-    <state width="605" height="128" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587450895186" />
-    <state width="916" height="344" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587365564674" />
-    <state width="605" height="128" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1587450604024" />
+    <state width="433" height="177" key="GridCell.Tab.0.left/0.0.1280.752@0.0.1280.752" timestamp="1587865179194" />
+    <state width="588" height="177" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587871114090" />
+    <state width="915" height="345" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587864444479" />
+    <state width="588" height="177" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1587870448480" />
     <state width="916" height="344" key="GridCell.Tab.0.left/0.23.1920.1129@0.23.1920.1129" timestamp="1587365854292" />
-    <state width="605" height="128" key="GridCell.Tab.0.right" timestamp="1587450895188">
+    <state width="588" height="177" key="GridCell.Tab.0.right" timestamp="1587871114093">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="414" height="128" key="GridCell.Tab.0.right/0.0.1280.752@0.0.1280.752" timestamp="1587438808404" />
-    <state width="605" height="128" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587450895188" />
-    <state width="916" height="344" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587365564676" />
-    <state width="605" height="128" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1587450604029" />
+    <state width="433" height="177" key="GridCell.Tab.0.right/0.0.1280.752@0.0.1280.752" timestamp="1587865179196" />
+    <state width="588" height="177" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587871114093" />
+    <state width="915" height="345" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587864444481" />
+    <state width="588" height="177" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1587870448483" />
     <state width="916" height="344" key="GridCell.Tab.0.right/0.23.1920.1129@0.23.1920.1129" timestamp="1587365854295" />
     <state x="0" y="239" key="SettingsEditor" timestamp="1587350481704">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -230,14 +236,19 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ML$costomization.coverage" NAME="customization Coverage Results" MODIFIED="1587449682857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
-    <SUITE FILE_PATH="coverage/ML$pie_plots.coverage" NAME="pie plots Coverage Results" MODIFIED="1587365533099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
-    <SUITE FILE_PATH="coverage/ML$unix_time.coverage" NAME="unix time Coverage Results" MODIFIED="1587438068319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$subplot___stocks.coverage" NAME="subplot &amp; stocks Coverage Results" MODIFIED="1587871063291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/ML$lineGraph.coverage" NAME="lineGraph Coverage Results" MODIFIED="1587449652410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/ML$data_from_files.coverage" NAME="data from files Coverage Results" MODIFIED="1587449687670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
-    <SUITE FILE_PATH="coverage/ML$graphing_data_from_internet.coverage" NAME="graphing data from internet Coverage Results" MODIFIED="1587449797127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
-    <SUITE FILE_PATH="coverage/ML$stack_plots.coverage" NAME="stack plots Coverage Results" MODIFIED="1587364239002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/ML$data_from_internet.coverage" NAME="graphing data from internet Coverage Results" MODIFIED="1587434281934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/ML$candlestick_OHLC_graphs.coverage" NAME="candlestick OHLC graphs Coverage Results" MODIFIED="1587450962866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$pie_plots.coverage" NAME="pie plots Coverage Results" MODIFIED="1587365533099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$subplots.coverage" NAME="subplots Coverage Results" MODIFIED="1587870448462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$unix_time.coverage" NAME="unix time Coverage Results" MODIFIED="1587438068319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$live_graphs.coverage" NAME="live graphs Coverage Results" MODIFIED="1587864444461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$annotations.coverage" NAME="annotations Coverage Results" MODIFIED="1587869512653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$styles.coverage" NAME="styles Coverage Results" MODIFIED="1587611117779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$graphing_data_from_internet.coverage" NAME="graphing data from internet Coverage Results" MODIFIED="1587449797127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/ML$stack_plots.coverage" NAME="stack plots Coverage Results" MODIFIED="1587364239002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/ML$scatter_plots.coverage" NAME="scatter plots Coverage Results" MODIFIED="1587449661356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
   </component>
 </project>
