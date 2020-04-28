@@ -33,7 +33,7 @@
 ## Linear Regression Algorithm (Multivariate)
 - Mutiple features (x1, x2, x3) (n)
 - Hypothesis includes multitple components
-<p align="center"><img src="images/multivar.png" width="500" height="100"></p>
+<p align="center"><img src="images/multivar.png" width="250"></p>
 
 ### Gradient Descent Algorithm For Multiple Variables
 - Multiple features to constantly update 
@@ -72,7 +72,7 @@
 - To get normal equation, solve for each feature in J(θ)
 - Normal Equation does not need Feature Scaling
 - When to use and not use both methods:
-<p align="center"><img src="images/GDvsNE.png" width="500" height="100"></p>
+<p align="center"><img src="images/GDvsNE.png" width="250"></p>
 
 ---------------------------
 ---------------------------
