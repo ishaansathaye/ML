@@ -4,6 +4,9 @@
 - Supervised Learning: Maps an input to an output based on example input-output pairs
 - Unsupervised Learning: Task for looking for patterns in data (clustering or separating data)
 
+---------------------------
+---------------------------
+---------------------------
 ## Linear Regression Algorithm (One Variable)
 - Training Set -> Learning Algorithm -> (x-values -> hypothesis function -> estimated y-values)
 - Minimize Y-intercept and Slope = Cost Function (Squared Error Cost Function)
@@ -24,21 +27,13 @@
 - **Linear Regression with gradient descent simplified:**
 <p align="center"><img src="images/linear&gradient.png" width="250"></p>
 
-
-
-
-
-
-
-
-
-
-
-
-
+---------------------------
+---------------------------
+---------------------------
 ## Linear Regression Algorithm (Multivariate)
 - Mutiple features (x1, x2, x3) (n)
 - Hypothesis includes multitple components
+<p align="center"><img src="images/multivar.png" width="250"></p>
 
 ### Gradient Descent Algorithm For Multiple Variables
 - Multiple features to constantly update 
@@ -61,9 +56,12 @@
 
 ### Polynomial Regression
 - Use powers and roots in features to fit curve that models data
+<p align="center"><img src="images/graphPoly.png" width="250"></p>
 
 ### Normal Equation Non Invertibilty
-- Using normal function to find value of θ without gradient descent 
+- Using normal function to find value of θ without gradient descent: 
+<p align="center"><img src="images/normalequation.png" width="250"></p>
+
 - **Matrices that do not have inverses: degenerate or non-invertible**
 - if (X^T X == non-invertible) -> **simplify features (redundant features)** or **delete some features (regularization)**
 - Inverse of matrix in octave: "pinv()"
@@ -74,6 +72,10 @@
 - To get normal equation, solve for each feature in J(θ)
 - Normal Equation does not need Feature Scaling
 - When to use and not use both methods:
+<p align="center"><img src="images/GDvsNE.png" width="250"></p>
 
+---------------------------
+---------------------------
+---------------------------
 
 
