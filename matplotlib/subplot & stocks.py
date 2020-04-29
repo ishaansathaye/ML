@@ -11,6 +11,14 @@ print(plt.style.available)
 
 print(plt.__file__)
 
+MA1 = 10
+MA2 = 30
+
+def movingAverage(value, window):
+    weights = np.repeat(1.0, window)/window
+    smas = np.convolve(value, weights, 'valid')
+    return smas
+
 
 def bytespdate2num(b):
     return mdates.datestr2num(b.decode('utf-8'))
@@ -47,6 +55,10 @@ def graph_data(stock):
         ohlc.append(appendMe)
         x += 1
 
+    ma1 = movingAverage(closep, MA1)
+    ma2 = movingAverage(closep, MA2)
+    start = len(date[MA2-1:])
+
     candlestick_ohlc(ax2, ohlc, width=0.4, colorup='g', colordown='r')
 
     for label in ax2.xaxis.get_ticklabels():
@@ -60,16 +72,21 @@ def graph_data(stock):
 
     # annotation with arrows and text in graph
     # fontDict = {'family': 'serif', 'color': 'darkred', 'size': 15}  # font dictionary
-    # ax1.text(date[20], closep[1], 'text example', fontdict=fontDict)  # putting text on the plot
+    # ax2.text(date[20], closep[1], 'text example', fontdict=fontDict)  # putting text on the plot
     #
-    # ax1.annotate('Good News', (date[11], highp[11]), xytext=(0.8, 0.9), textcoords='axes fraction',
+    # ax2.annotate('Good News', (date[11], highp[11]), xytext=(0.8, 0.9), textcoords='axes fraction',
     #              arrowprops=dict(facecolor='grey', color='grey'))
     # # annotation on the graph, fixes the annotation at the relative position, arrow moves
+
+    ax3.plot(date, ma1)
+    ax3.plot(date, ma2)
 
 
     # plt.legend()
     plt.subplots_adjust(left=0.11, bottom=0.24, right=0.90, top=0.90, wspace=0.2, hspace=0)
     plt.show()
 
+# stockName = input('What is the stock you need: ')
+# graph_data('VZ')
 
-graph_data('VZ')
+print('hello')
