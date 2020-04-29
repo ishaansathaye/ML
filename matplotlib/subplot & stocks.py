@@ -14,6 +14,10 @@ print(plt.__file__)
 MA1 = 10
 MA2 = 30
 
+def highMinusLow(high, low):
+    return high-low
+
+
 def movingAverage(value, window):
     weights = np.repeat(1.0, window)/window
     smas = np.convolve(value, weights, 'valid')
@@ -59,6 +63,10 @@ def graph_data(stock):
     ma2 = movingAverage(closep, MA2)
     start = len(date[MA2-1:])
 
+    h_l = list(map(highMinusLow, highp, lowp))
+
+    ax1.plot_date(date, h_l, '-')
+
     candlestick_ohlc(ax2, ohlc, width=0.4, colorup='g', colordown='r')
 
     for label in ax2.xaxis.get_ticklabels():
@@ -78,15 +86,13 @@ def graph_data(stock):
     #              arrowprops=dict(facecolor='grey', color='grey'))
     # # annotation on the graph, fixes the annotation at the relative position, arrow moves
 
-    ax3.plot(date, ma1)
-    ax3.plot(date, ma2)
+
+    ax3.plot(date[-start:], ma1[-start:])
+    ax3.plot(date[-start:], ma2[-start:])
 
 
     # plt.legend()
     plt.subplots_adjust(left=0.11, bottom=0.24, right=0.90, top=0.90, wspace=0.2, hspace=0)
     plt.show()
 
-# stockName = input('What is the stock you need: ')
-# graph_data('VZ')
-
-print('hello')
+graph_data('VZ')
