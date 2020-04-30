@@ -13,7 +13,7 @@ def bytespdate2num(b):
     return mdates.datestr2num(b.decode('utf-8'))
 
 
-def graph_data(stock):
+def graph_data(days):
 
     fig = plt.figure()
     ax1 = plt.subplot2grid((1, 1), (0, 0))
@@ -23,7 +23,9 @@ def graph_data(stock):
     stockData = []
     splitSource = sourceCode.split('\n')
 
-    for line in splitSource[1:]:
+    stDays = int(days)
+
+    for line in splitSource[1:(stDays+1)]:
         splitLine = line.split(',')
         if len(splitLine) == 7:
             if 'values' not in line and 'labels' not in line:
@@ -52,10 +54,10 @@ def graph_data(stock):
 
     plt.xlabel('Date')
     plt.ylabel('Price')
-    plt.title(stock)
+    plt.title('stock')
     # plt.legend()
     plt.subplots_adjust(left=0.09, bottom=0.20, right=0.94, top=0.90, wspace=0.2, hspace=0)
     plt.show()
 
-
-graph_data('VZ')
+days = input('How many days of stock history?: ')
+graph_data(days)

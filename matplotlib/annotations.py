@@ -16,7 +16,7 @@ def bytespdate2num(b):
     return mdates.datestr2num(b.decode('utf-8'))
 
 
-def graph_data(stock):
+def graph_data(days):
     fig = plt.figure()
     ax1 = plt.subplot2grid((1, 1), (0, 0))
 
@@ -25,7 +25,9 @@ def graph_data(stock):
     stockData = []
     splitSource = sourceCode.split('\n')
 
-    for line in splitSource[1:]:
+    stdays = int(days)
+
+    for line in splitSource[1:(stdays+1)]:
         splitLine = line.split(',')
         if len(splitLine) == 7:
             if 'values' not in line and 'labels' not in line:
@@ -50,8 +52,8 @@ def graph_data(stock):
     ax1.xaxis.set_major_locator(mticker.MaxNLocator(10))
     ax1.grid(True)
 
-    bbox_props = dict(boxstyle = 'round4', fc='w', ec='k', lw=1) # adding annotation for last price
-    ax1.annotate(str(closep[-1]), (date[-1], closep[-1]), xytext=(date[-1] + 4, closep[-1]), bbox=bbox_props)
+    bbox_props = dict(boxstyle = 'round', fc='w', ec='k', lw=1) # adding annotation for last price
+    ax1.annotate(str(closep[0]), (date[0], closep[0]), xytext=(date[0]+1, closep[0]), bbox=bbox_props, fontsize='x-small')
 
     # annotation with arrows and text in graph
     # fontDict = {'family': 'serif', 'color': 'darkred', 'size': 15}  # font dictionary
@@ -61,12 +63,13 @@ def graph_data(stock):
     #              arrowprops=dict(facecolor='grey', color='grey'))
     # # annotation on the graph, fixes the annotation at the relative position, arrow moves
 
+
     plt.xlabel('Date')
     plt.ylabel('Price')
-    plt.title(stock)
+    plt.title('stock')
     # plt.legend()
-    plt.subplots_adjust(left=0.11, bottom=0.24, right=0.90, top=0.90, wspace=0.2, hspace=0)
+    plt.subplots_adjust(left=0.11, bottom=0.24, right=0.85, top=0.90, wspace=0.2, hspace=0)
     plt.show()
 
 
-graph_data('VZ')
+graph_data(days=input('How many days of stock history?: '))

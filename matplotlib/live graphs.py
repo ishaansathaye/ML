@@ -9,7 +9,7 @@ ax1 = fig.add_subplot(1, 1, 1)
 
 
 def animate(i):
-    graphData = open('example', 'r').read()
+    graphData = open('matplotlib/example', 'r').read()
     lines = graphData.split('\n')
     xs = []
     ys = []

@@ -21,8 +21,8 @@ import pandas as pd
 # plt.plot(x, y, label='loaded from file')
 
 # Part 3: Using pandas
-x = pd.read_csv('example', usecols=[0])
-y = pd.read_csv('example', usecols=[1])
+x = pd.read_csv('matplotlib/example', usecols=[0])
+y = pd.read_csv('matplotlib/example', usecols=[1])
 plt.plot(x, y, label='loaded from file')
 
 
