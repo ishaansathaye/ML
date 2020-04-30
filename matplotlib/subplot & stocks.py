@@ -30,12 +30,12 @@ def bytespdate2num(b):
 
 def graph_data(days):
     fig = plt.figure()
-    # ax1 = plt.subplot2grid((6, 1), (0, 0), rowspan=1, colspan=1)
+    ax1 = plt.subplot2grid((6, 1), (0, 0), rowspan=1, colspan=1)
     plt.title('Stock Info')
     ax2 = plt.subplot2grid((6, 1), (1, 0), rowspan=4, colspan=1)
     plt.xlabel('Date')
     plt.ylabel('Price')
-    # ax3 = plt.subplot2grid((6, 1), (5, 0), rowspan=1, colspan=1)
+    ax3 = plt.subplot2grid((6, 1), (5, 0), rowspan=1, colspan=1)
 
     stockPrice = 'https://pythonprogramming.net/yahoo_finance_replacement'
     sourceCode = urllib.request.urlopen(stockPrice).read().decode()
@@ -67,7 +67,7 @@ def graph_data(days):
 
     h_l = list(map(highMinusLow, highp, lowp))
 
-    # ax1.plot_date(date, h_l, '-')
+    ax1.plot_date(date, h_l, '-')
 
     candlestick_ohlc(ax2, ohlc, width=0.4, colorup='g', colordown='r')
 
@@ -89,8 +89,8 @@ def graph_data(days):
     # # annotation on the graph, fixes the annotation at the relative position, arrow moves
 
 
-    # ax3.plot(date[-start:], ma1[-start:])
-    # ax3.plot(date[-start:], ma2[-start:])
+    ax3.plot(date[-start:], ma1[-start:])
+    ax3.plot(date[-start:], ma2[-start:])
 
 
     # plt.legend()
