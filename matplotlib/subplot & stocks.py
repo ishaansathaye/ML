@@ -7,9 +7,6 @@ import urllib.request
 from matplotlib import style
 
 style.use('fivethirtyeight')
-# print(plt.style.available)
-
-# print(plt.__file__)
 
 MA1 = 10
 MA2 = 30
