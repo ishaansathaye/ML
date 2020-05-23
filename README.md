@@ -7,6 +7,20 @@
 ---------------------------
 ---------------------------
 ---------------------------
+## Regression Algorithms
+- Ordinal Regression
+- Poisson Regression
+- Fast forest quantile Regression
+- Linear, Polynomial, Lasso, Stepwise, Ridge Regression
+- Bayesian linear Regression
+- Neural network Regression
+- Decision forest Regression
+- Boosted decision tree Regression
+- KNN (K-nearest neighbors)
+
+---------------------------
+---------------------------
+---------------------------
 ## Linear Regression Algorithm (One Variable)
 - Training Set -> Learning Algorithm -> (x-values -> hypothesis function -> estimated y-values)
 - Minimize Y-intercept and Slope = Cost Function (Squared Error Cost Function)
