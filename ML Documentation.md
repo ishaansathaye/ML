@@ -17,18 +17,6 @@
 - Decision forest Regression
 - Boosted decision tree Regression
 - KNN (K-nearest neighbors)
-## Classification Algorithms
-- Decision Trees
-- Naive Bayes
-- Linear Discriminant Analysis
-- k-Nearest Neighbor - classifying cases based on their similarity to other cases
-    - On a scatter plot, the closest case can be associated to the unknown case that the algorithm is predicting
-    - Choosing 5 nearest neighbors and taking majority is more reliable
-    - k = amount of cases nearest to the unkown case
-    - Calculate the distant between cases using distance formula
-- Logistic Regression
-- Neural Networks
-- Support Vector Machines
 
 ---------------------------
 ---------------------------
@@ -103,5 +91,33 @@
 ---------------------------
 ---------------------------
 ---------------------------
+## Classification
 
+### Evaluation Metrics: Classfication
+- Jacard Index (Best value at 1)
+    - J = (correctYPredictions) / (realElements + predictedElements - correctYPredictions)
+- F1 Score (Best value at 1)
+    - Confusion Matrix shows chart with correct and wrong predictions
+    - Precision = TruePositive / (TruePositive + FalsePositive)
+    - Recall = TruePositive / (TruePositive + FalseNegative)
+    - F1 Score = 2*(prec * rec)/(prec + rec)
+<p align="center"><img src="images/confm.png" width="250"></p>
+
+- Log loss (Best value or higher accuracy at 0)
+    - Predicted output is a probability value between 0 and 1
+    - Log Loss Equation: 
+<p align="center"><img src="images/logloss.png" width="250"></p>
+
+### Classification Algorithms
+- Decision Trees
+- Naive Bayes
+- Linear Discriminant Analysis
+- k-Nearest Neighbor - classifying cases based on their similarity to other cases
+    - On a scatter plot, the closest case can be associated to the unknown case that the algorithm is predicting
+    - Choosing 5 nearest neighbors and taking majority is more reliable
+    - k = amount of cases nearest to the unkown case
+    - Calculate the distant between cases using distance formula
+- Logistic Regression
+- Neural Networks
+- Support Vector Machines 
 
