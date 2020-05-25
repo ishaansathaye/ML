@@ -21,7 +21,11 @@
 - Decision Trees
 - Naive Bayes
 - Linear Discriminant Analysis
-- k-Nearest Neighbor
+- k-Nearest Neighbor - classifying cases based on their similarity to other cases
+    - On a scatter plot, the closest case can be associated to the unknown case that the algorithm is predicting
+    - Choosing 5 nearest neighbors and taking majority is more reliable
+    - k = amount of cases nearest to the unkown case
+    - Calculate the distant between cases using distance formula
 - Logistic Regression
 - Neural Networks
 - Support Vector Machines
