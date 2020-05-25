@@ -17,6 +17,14 @@
 - Decision forest Regression
 - Boosted decision tree Regression
 - KNN (K-nearest neighbors)
+## Classification Algorithms
+- Decision Trees
+- Naive Bayes
+- Linear Discriminant Analysis
+- k-Nearest Neighbor
+- Logistic Regression
+- Neural Networks
+- Support Vector Machines
 
 ---------------------------
 ---------------------------
