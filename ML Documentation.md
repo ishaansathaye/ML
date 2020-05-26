@@ -125,7 +125,8 @@
     - Returns a probaility score between 0 and 1
     - Sigmoid Function = Logistic Function -> bigger then 1, smaller then 0
     - Training Process: 1) Initialize theta 2) Calcualte y_hat 3) Find error (real - predict) 4) Change theta to reduce cost function 5) Go to 2 and start again (Use gradient descent to reduce cost and accuracy to stop interation)
-    - Logistic Regression Cost Function <p align="center"><img src="logcost.png" width="250"></p>
+    - Logistic Regression Cost Function 
+    <p align="center"><img src="images/logcost.png" width="250"></p>
     - To get parameters need to minimze the cost function using gradient descent
 - Neural Networks
 - Support Vector Machines 
