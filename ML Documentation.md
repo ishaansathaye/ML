@@ -129,4 +129,11 @@
     <p align="center"><img src="images/logcost.png" width="250"></p>
     - To get parameters need to minimze the cost function using gradient descent
 - Neural Networks
-- Support Vector Machines 
+- Support Vector Machines - supervised algorithm that classifies cases by finding a seperator
+    - SVM outputs a hyperplane that separates cases and be used to classify unkown cases
+    - Data transformation - chaning data to separate data -> Kernel Functions (linear, polynomial, RBF, and Sigmoid)
+    - Finding the Hyperplane with support vectors closes to the margin lines:
+    <p align="center"><img src="images/svmhype.png" width="250"></p>
+    - Advantage: accurate in high dimension places and memory efficient
+    - Disadvantage: prone to over-fitting, no probaility estimation, small datasets
+    - Applications: Image Recognition, Text Category, Detecting Spam, Sentiment Analysis, Gene Expression Classfication, and other machine learning techniques
