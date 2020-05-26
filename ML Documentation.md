@@ -110,6 +110,9 @@
 
 ### Classification Algorithms
 - Decision Trees
+    - Testing attributes or features: internal nodes are tests, branches are results of the test, and leaf node assigns patients to a class
+    - Attributes should split data so that there is less impurity
+    - Aiming for a pure node and impurity should go down as the tree grows -> less entropy
 - Naive Bayes
 - Linear Discriminant Analysis
 - k-Nearest Neighbor - classifying cases based on their similarity to other cases
