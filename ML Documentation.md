@@ -135,3 +135,10 @@
     - Advantage: accurate in high dimension places and memory efficient
     - Disadvantage: prone to over-fitting, no probaility estimation, small datasets
     - Applications: Image Recognition, Text Category, Detecting Spam, Sentiment Analysis, Gene Expression Classfication, and other machine learning techniques
+
+---------------------------
+---------------------------
+---------------------------
+## Clustering
+
+### 
