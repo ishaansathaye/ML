@@ -158,8 +158,20 @@
             - Choosing k -> graph of k vs mean distance of data points to cluster centroid (best when distance is low) __Find elbow point of grpah or where the rate decreases sharply for best k__
     - **k-Median**
     - **Fuzzy c-Means**
-- Hierarchical Clustering (Intuitive and good for small datasets)
-    - **Agglomerative**
+- Hierarchical Clustering (Intuitive and good for small datasets) -> builds hierarchy of clusters where each node is a cluster and consists of the clusters of its daughter nodes
+    - **Agglomerative** (collect things)
+        - Bottom up or where pairs of clusters pair together
+        - Steps: *1)* Creat n clusters for each data point *2)* Compute the proximity matrix *3)* Repeat -> Merge two closest clusters and update the proximity matrix -> Until only single cluster remains
+        - *Single-Linkage Clustering*
+            - Minimum distance between clusters
+        - *Complete-Linkage Clustering*
+            - Maximum distance between clusters
+        - *Average Linkage Clustering*
+            - Average distance between clusters
+        - *Centroid Linkage Clustering*
+            - Distance between cluster centroids
     - **Divisive**
+        - Top Down or dividing the clusters
+    - Partitioned-Based (k-Means) vs Hierarchical Clustering: <p align="center"><img src="images/hier.png" width="1000"></p>
 - Density-based Clustering (Produces arbitrary shaped clusters) (Good when spacial clusters or when noise in dataset)
     - **DBSCAN**
