@@ -182,3 +182,35 @@
         - Core Points -> data points that have the M points and are at the center
         - Border Points -> data points that do not have the minumum number of points in a neighborhood
         - Clusters formed with at least one core point and can be connected by multiple core points
+
+---------------------------
+---------------------------
+---------------------------
+## Recommender Systems
+- Captures the patter of people's behavior and use it to predict things they want or like
+- **Content-Based**
+    - Figures out favorite aspects and makes recommendations to show things that share those aspects
+    - Take the rating and develop a matrix with the genre matrix and multiply to get a weighted matrix
+- **Collaborative Filtering**
+    - Find similiar groups of users and shows recommendations based on what similar users might like
+    - *User-Based*
+        - Based on users' neighborhood
+        - Have a User Rating Matrix and then learn the similarity weights
+        - Create the weighted ratings matrix 
+    - *Item-Based*
+        - Based on items' similarity
+        - Not based on content, but based on similarity between items 
+    - Challenges
+        - Data Sparsity
+            - Users in general rate only a limited number of items
+        - Cold Start
+            - Recommendation to new users or new items
+        - Scalability
+            - Increase in number of users of items
+- *Implementing Recommender System*
+    - Memory-Based
+        - Uses entire user-item dataset to generate recommendation
+        - Uses statistical techniques
+    - Model-Based
+        - Develop model of user to attempt to learn their preference
+        - Uses machine learning techniques
