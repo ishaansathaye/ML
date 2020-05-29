@@ -174,4 +174,11 @@
         - Top Down or dividing the clusters
     - Partitioned-Based (k-Means) vs Hierarchical Clustering: <p align="center"><img src="images/hier.png" width="1000"></p>
 - Density-based Clustering (Produces arbitrary shaped clusters) (Good when spacial clusters or when noise in dataset)
-    - **DBSCAN**
+    - **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise)
+        - Common clustering algorithm and works based on desnity of objects
+        - Parameters
+            - R (Radius of neighborhood) = if includes enough number of points within then it is a dense area
+            - M (Min number of neighbors) = minumim number of data points that we want in a neighborhood to define a cluster
+        - Core Points -> data points that have the M points and are at the center
+        - Border Points -> data points that do not have the minumum number of points in a neighborhood
+        - Clusters formed with at least one core point and can be connected by multiple core points
