@@ -1,4 +1,4 @@
-# Machine Learning Doc
+# Machine Learning Documentation
 
 ## Unsupervised vs Supervised
 - Supervised Learning: Maps an input to an output based on example input-output pairs
@@ -28,7 +28,7 @@
 <p align="center"><img src="images/equations.png" width="250"></p>
 
 ### Gradient Descent Algorithm (Minimizes Cost Function J)
-- From an arbitrary point, taking steps until converge at local minumum
+- From an arbitrary point, taking steps until converge at local minimum
 - Repeat algorithm until convergence and update y-intercept and slope
 <p align="center"><img src="images/gradient.png" width="250"></p>
 
@@ -45,8 +45,8 @@
 ---------------------------
 ---------------------------
 ## Linear Regression Algorithm (Multivariate)
-- Mutiple features (x1, x2, x3) (n)
-- Hypothesis includes multitple components
+- Multiple features (x1, x2, x3) (n)
+- Hypothesis includes multiple components
 <p align="center"><img src="images/multivar.png" width="250"></p>
 
 ### Gradient Descent Algorithm For Multiple Variables
@@ -54,7 +54,7 @@
 
 #### Implementing Gradient Descent Well: Feature Scaling
 - Features should have similar ranges of values (0-2000) and (0-5)
-- Scaling would make countrous of cost function more circular -> gradient decsent takes direct path to global minimum (size/2000) and (# of rooms/5)
+- Scaling would make contours of cost function more circular -> gradient decent takes direct path to global minimum (size/2000) and (# of rooms/5)
 - Each feature have range: -1 <= x <= 1 (Close enough to this range should have efficient algorithm), (not too small or not too large)
 - #### Mean Normalization
     - Take average: (testSize - avgSize) / (maxSize - minSize)
@@ -81,7 +81,7 @@
 - Inverse of matrix in octave: "pinv()"
 
 ### Gradient Descent vs Normal Equation
-- **Gradient Descent** -> taking steps to minimze J(θ) and find the global minumum θ
+- **Gradient Descent** -> taking steps to minimize J(θ) and find the global minimum θ
 - **Normal Equation** -> Solve for optimal value θ
 - To get normal equation, solve for each feature in J(θ)
 - Normal Equation does not need Feature Scaling
@@ -93,8 +93,8 @@
 ---------------------------
 ## Classification
 
-### Evaluation Metrics: Classfication
-- **Jacard Index (Best value at 1)**
+### Evaluation Metrics: Classification
+- **Jaccard Index (Best value at 1)**
     - J = (correctYPredictions) / (realElements + predictedElements - correctYPredictions)
 - **F1 Score (Best value at 1)**
     - Confusion Matrix shows chart with correct and wrong predictions
@@ -118,29 +118,29 @@
 - **k-Nearest Neighbor** - classifying cases based on their similarity to other cases
     - On a scatter plot, the closest case can be associated to the unknown case that the algorithm is predicting
     - Choosing 5 nearest neighbors and taking majority is more reliable
-    - k = amount of cases nearest to the unkown case
+    - k = amount of cases nearest to the unknown case
     - Calculate the distant between cases using distance formula
 - **Logistic Regression**
     - Binary classification: 0 or 1
-    - Returns a probaility score between 0 and 1
+    - Returns a probability score between 0 and 1
     - Sigmoid Function = Logistic Function -> bigger then 1, smaller then 0
-    - Training Process: 1) Initialize theta 2) Calcualte y_hat 3) Find error (real - predict) 4) Change theta to reduce cost function 5) Go to 2 and start again (Use gradient descent to reduce cost and accuracy to stop interation)
+    - Training Process: 1) Initialize theta 2) Calculate y_hat 3) Find error (real - predict) 4) Change theta to reduce cost function 5) Go to 2 and start again (Use gradient descent to reduce cost and accuracy to stop interaction)
     - Logistic Regression Cost Function <p align="center"><img src="images/logcost.png" width="250"></p>
-    - To get parameters need to minimze the cost function using gradient descent
+    - To get parameters need to minimize the cost function using gradient descent
 - **Neural Networks**
-- **Support Vector Machines** - supervised algorithm that classifies cases by finding a seperator
-    - SVM outputs a hyperplane that separates cases and be used to classify unkown cases
-    - Data transformation - chaning data to separate data -> Kernel Functions (linear, polynomial, RBF, and Sigmoid)
+- **Support Vector Machines** - supervised algorithm that classifies cases by finding a separator
+    - SVM outputs a hyperplane that separates cases and be used to classify unknown cases
+    - Data transformation - changing data to separate data -> Kernel Functions (linear, polynomial, RBF, and Sigmoid)
     - Finding the Hyperplane with support vectors closes to the margin lines: <p align="center"><img src="images/svmhype.png" width="250"></p>
     - Advantage: accurate in high dimension places and memory efficient
-    - Disadvantage: prone to over-fitting, no probaility estimation, small datasets
-    - Applications: Image Recognition, Text Category, Detecting Spam, Sentiment Analysis, Gene Expression Classfication, and other machine learning techniques
+    - Disadvantage: prone to over-fitting, no probability estimation, small datasets
+    - Applications: Image Recognition, Text Category, Detecting Spam, Sentiment Analysis, Gene Expression Classification, and other machine learning techniques
 
 ---------------------------
 ---------------------------
 ---------------------------
 ## Clustering
-- Cluster -> a group of objects that are similar to other ojects in that cluster and dissimilar to data points in other clusters <p align="center"><img src="images/cluster.png" width="250"></p>
+- Cluster -> a group of objects that are similar to other objects in that cluster and dissimilar to data points in other clusters <p align="center"><img src="images/cluster.png" width="250"></p>
 - Form of unsupervised learning
 - Applications: Exploratory Data Analysis, Summary Generation, Outlier Detection, Finding Duplicates, Pre-processing Step
 
@@ -151,17 +151,17 @@
         - k = number of clusters (choose random centroids of clusters)
         - Reduce error: SSE = sum of squared differences between each point and its centroid
         - Compute new centroids of clusters by taking mean of data points
-        - Repeat process of new centroids and calculating distance between points and centroid untill converges and centroid does not move
+        - Repeat process of new centroids and calculating distance between points and centroid until converges and centroid does not move
         - *Accuracy*
             - External -> compare with ground truth if available
             - Internal -> Average the distance between data points within a cluster
-            - Choosing k -> graph of k vs mean distance of data points to cluster centroid (best when distance is low) __Find elbow point of grpah or where the rate decreases sharply for best k__
+            - Choosing k -> graph of k vs mean distance of data points to cluster centroid (best when distance is low) __Find elbow point of graph or where the rate decreases sharply for best k__
     - **k-Median**
     - **Fuzzy c-Means**
 - Hierarchical Clustering (Intuitive and good for small datasets) -> builds hierarchy of clusters where each node is a cluster and consists of the clusters of its daughter nodes
     - **Agglomerative** (collect things)
         - Bottom up or where pairs of clusters pair together
-        - Steps: *1)* Creat n clusters for each data point *2)* Compute the proximity matrix *3)* Repeat -> Merge two closest clusters and update the proximity matrix -> Until only single cluster remains
+        - Steps: *1)* Create n clusters for each data point *2)* Compute the proximity matrix *3)* Repeat -> Merge two closest clusters and update the proximity matrix -> Until only single cluster remains
         - *Single-Linkage Clustering*
             - Minimum distance between clusters
         - *Complete-Linkage Clustering*
@@ -175,12 +175,12 @@
     - Partitioned-Based (k-Means) vs Hierarchical Clustering: <p align="center"><img src="images/hier.png" width="1000"></p>
 - Density-based Clustering (Produces arbitrary shaped clusters) (Good when spacial clusters or when noise in dataset)
     - **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise)
-        - Common clustering algorithm and works based on desnity of objects
+        - Common clustering algorithm and works based on density of objects
         - Parameters
             - R (Radius of neighborhood) = if includes enough number of points within then it is a dense area
-            - M (Min number of neighbors) = minumim number of data points that we want in a neighborhood to define a cluster
+            - M (Min number of neighbors) = minimum number of data points that we want in a neighborhood to define a cluster
         - Core Points -> data points that have the M points and are at the center
-        - Border Points -> data points that do not have the minumum number of points in a neighborhood
+        - Border Points -> data points that do not have the minimum number of points in a neighborhood
         - Clusters formed with at least one core point and can be connected by multiple core points
 
 ---------------------------
@@ -192,7 +192,7 @@
     - Figures out favorite aspects and makes recommendations to show things that share those aspects
     - Take the rating and develop a matrix with the genre matrix and multiply to get a weighted matrix
 - **Collaborative Filtering**
-    - Find similiar groups of users and shows recommendations based on what similar users might like
+    - Find similar groups of users and shows recommendations based on what similar users might like
     - *User-Based*
         - Based on users' neighborhood
         - Have a User Rating Matrix and then learn the similarity weights
