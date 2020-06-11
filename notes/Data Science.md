@@ -27,7 +27,7 @@
 - **Data Mining** = process of automatically searching and analyzing data
 - **Machine Learning** = subset of AI and uses computer algorithms to analyze data and make intelligent decisions
     - Applications: recommendations 
-- **Deep Learning** = subset of Machine Learning and uses layered neural networks to stimulate human decision-making
+- **Deep Learning** = subset of Machine Learning and uses layered neural networks to stimulate human decision-making 
     - Multiple layered neural networks
     - Applications: speech recognition
 - **Neural Networks** = take inspiration from biological neural networks
@@ -35,3 +35,17 @@
 - Data Science encompasses entire data processing methods 
 - **Artificial Intelligence** includes everything that allows computers to learn how to solve problems and make decisions
 - [Regression Explained](https://d18ky98rnyall9.cloudfront.net/_9d7842599be434b5759c48f5fdd33b6a_Datascience_Orientation_Data_Science_in_Business_Reading.pdf?Expires=1591833600&Signature=k0BLe~o62aaEIPkakqnqL3JC5uinYgSY5dDsO8WqrnUPEThYs95lVLjWx7XZbY6ay~4he82Ljq-n1bFa9varlXmpFbjoPfzA2RGh8GMagrSyerU0j43L5K9gkr93JS9ge6OoB2PZq3ZlX~hd594M~GSh3q60rtN5mbN074aw-u0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+### Data Science in Business
+- Applications of Data Science: 
+    - Recommendation engines (common), personal assistant use data science to answer questions, google analyzes behavior of humans to create recommendations, wearable devices generate data
+- [The Final Delivery](https://d18ky98rnyall9.cloudfront.net/_d34fba5dff39fc13a61304749d07af66_Datascience_Orientation_Use_Cases_for_Data_Science_Reading_1.pdf?Expires=1592006400&Signature=fy8Mhplik70CajU-n4FB3C~pcF4AhcxnnNrqeaXfVserehql5PEJC-DHlWP08REEqptw900AVLX8N0SxNCMm3Hm7dn7FfHqomc-Y4XogggKLSbF-6-WBPTivF6X9WFbY-cABUfHkMGVMm4mHnrg6qltjG8sEEsojWKFIYX1BxDk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+### Careers and Recruiting in Data Science
+- Top 3 Jobs: AI Specialist, Robotics Engineer, Data Scientist
+- SQL Database
+
+### The Report Structure
+- [Report Structure](https://d18ky98rnyall9.cloudfront.net/_ba35c09f6806b345bda8524bda06a440_Datascience_Orientation_Use_Cases_for_Data_Science_Reading_2.pdf?Expires=1592006400&Signature=BlVCC2DYIlauC9gGD0rk239MXkc7wpM2CAGlzXadgtx36Gqqc2kSpRh0~HIM10YF92rUAH1xtzeUJoj6zhOwODNRNprLMf8p9EXFwjtfWtZ9iKUoZO29V7UY1Nl6M5OYfECwqNcRSe9C2wlLFD~avWo75ji5J1R4y0-CiTBxCNo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+
