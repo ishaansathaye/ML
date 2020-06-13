@@ -119,5 +119,10 @@
     - Uses pre-trained models
 
 ### Jupyter Notebook and JupyterLab
-
+- Interesting Jupyter Notebooks: [Notebook Gallery](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
+    
 ### RStudio IDE
+- [Install R](https://cran.rstudio.com/)
+- [Install RStudio](https://rstudio.com/products/rstudio/download/#download)
+
+### Watson Studio
