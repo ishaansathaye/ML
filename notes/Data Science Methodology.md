@@ -1,6 +1,6 @@
 # Data Science Methodology Notes
 
-### [Problem to Approach]()
+### Problem to Approach
 - From problem to approach
     - **What is the problem that you are trying to solve?**
     - **How can you use data to answer the question?**
@@ -18,11 +18,13 @@
     - Business Understanding
         - Seek clarification
         - Define Goals and Objectives
+        - Next → Analytical Approach
     - Data Understanding
     - Data Preparation
     - Modeling
     - Evaluation
     - Deployment
 
-
 ### From Requirements to Collection
+- Data Requirements
+- Data Collection
