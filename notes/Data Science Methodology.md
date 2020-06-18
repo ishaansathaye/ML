@@ -1,6 +1,6 @@
 # Data Science Methodology Notes
 
-<p align="center"><img src="images/method.jpg" width="250"></p>
+<p align="center"><img src="method.jpg" width="500"></p>
 
 ### Problem to Approach
 - From problem to approach
