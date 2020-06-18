@@ -1,5 +1,7 @@
 # Data Science Methodology Notes
 
+<p align="center"><img src="images/method.jpg" width="250"></p>
+
 ### Problem to Approach
 - From problem to approach
     - **What is the problem that you are trying to solve?**
@@ -28,3 +30,25 @@
 ### From Requirements to Collection
 - Data Requirements
 - Data Collection
+
+### From Understanding to Preparation
+- Data Understanding
+- Data Preparation
+- Data quality
+    - Missing values
+    - Invalid or misleading values
+
+### From Modeling to Evaluation
+- Modeling
+    - Developing models that are descriptive or predictive
+    - Understanding the question is key to building a good model
+- Evaluation
+    - ROC Curve
+        - True-Positive Rate vs False-Positive Rate
+        - Optimal model at maximum separation
+
+### From Deployment to Feedback
+- Assimilate knowledge for business
+- Practical understanding of the meaning of model results
+- Feedback
+    - Used to refine the model
