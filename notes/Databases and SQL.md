@@ -206,7 +206,19 @@
     
     ibm_db.close(conn)
     ```
-- 
-
 
 ### Using JOIN operations to work with multiple tables
+- JOIN operator
+    - Combines rows from two or more tables
+    - Based on a relationship
+- Inner Join
+    - Matches results from tables
+- Left Outer Join
+    - Matches all rows from the left table and any matching rows from the right table
+- Right Outer Join
+    - Matches all rows from the right table and any matching rows from the left table
+- Full Outer Join
+    - Matches all row from both tables
+
+### Working with Real-World Data Sets and built-in SQL Functions
+- 
