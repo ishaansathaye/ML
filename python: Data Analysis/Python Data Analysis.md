@@ -29,7 +29,45 @@
     df.describe(include="all") #Provides full summary stats
     df.info() #Provides a concise summary of your DataFrame
     ```
-    - Accessing Databases with Python
-        - 
 
-    
+### Data Wrangling
+- Missing Values
+    - Drop the variable or drop the entry
+    ```python
+    dataframes.dropna()#axis=0 for entire row drop/axis=1 for entire column drop
+    df.dropna(subset=['price'], axis=0, impace=True)#inplace True modifies the ata
+    ```
+    - Replace it with an average or frequency
+    ```python
+    dataframe.replace(missing_value, new_value)
+    ```
+- Data Formatting
+    - Converting data types
+    ```python
+    df['price'] = df['price'].astype('int')
+    ```
+- Data Normalization
+    - Simple Feature scaling: old/max = new
+    ```python
+    df['price'] = df['price']/df[['price'].max()
+    ```
+    - Min-Max: (old-min)/(max-min)
+    ```python
+    df['price'] = (df['price']-df['price'].min())/(df[['price'].max()-df['price'].min())
+    ```
+    - Z-score: (old-average)/(standard deviation)
+    ```python
+    df['price'] = (df['price']-df['price'].mean())/df[['price'].std()
+    ```
+ - Binning
+    ```python
+    bins = np.linspace(min(df['price'], max(df['price']), 4)
+    group_names = ['Low', 'Medium', 'High']
+    df['price-binned'] = pd.cut(df['price'], bins, labels=group_names, include_lowest=True)
+    ```
+- Categorical -> Quantitative
+    - Assign 0 or 1 (One-hot encoding)
+    ```python
+    pd.get_dummies(df['fuel'])
+    ```
+
