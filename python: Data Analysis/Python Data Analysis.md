@@ -105,3 +105,66 @@
             - < 0.1: weak
             - Greater 0.1: none
         - `pearson_coef, p_value = stats.pearsonr(df['horsepower'], df['price'])`
+
+### Model Development
+- Linear and Multiple Regression
+    - Linear:
+    ```python
+    from sklearn.linear_model import LinearRegression
+    lm = LinearRegression()
+    x = df[['highway-mpg']]
+    y = df['price']
+    lm.fit(x,y)
+    y_hat = lm.predict(x)
+    ```
+    - Multiple: multiple independent variables
+    ```python
+    z = df[['horsepower', 'curb-weight', 'engine-size', 'highway-mpg']]
+    lm.fit(z, df['price'])
+    y_hat = lm.predict(x)
+    ```
+- Model Eval using Visualization
+    - Regression Plot:
+    ```python
+    import seaborn as sns
+    sns.regplot(x='', y='', data=df)
+    plt.ylim(0,)
+    ```
+    - Residual Plot
+    ```python
+    import seaborn as sns
+    sns.residplot(df['highway-mpg'], df['price'])
+    ```
+    - Distribution Plot:
+    ```python
+    import seaborn as sns
+    ax1 = sns.distplot()
+    sns.distplot(y_hat,...)
+    ```
+- Polynomial Regression and Pipelines
+    - Quadratic
+    - Cubic
+    ```python
+    f = np.polyfit(x,y,3)
+    p = np.polyd(f) #print(p) for printing model equation
+    #Poly with multi-variate
+    from sklearn.preprocessing import PolynomialFeatures
+    pr = PolynomialFeatures(degree=2, include_bias=False)
+    ```
+    - Higher order
+    - Pre-processing: normalize each feature simultaneously
+    ```python
+    from sklearn.preprocessing import StandardScaler
+    SCALE = StandardScaler()
+    SCALE.fit(x_data[['horsepower', 'highway-mpg']])
+    x_scale = SCALE.transform()
+    - Pipelines: used to normalize then transform 
+- Measures for In-Sample Evaluation
+    - Mean-Squared Error(MSE)
+    - R^2 Error (Coefficient of Determination)
+- Prediction and Decision Making
+    - Determining a Good Model Fit
+        - Do the predicted values make sense
+        - Visualization
+        - Numerical measures for evaluation
+        - Comparing Models
