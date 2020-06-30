@@ -70,4 +70,38 @@
     ```python
     pd.get_dummies(df['fuel'])
     ```
-
+    
+### Exploratory Data Analysis
+- Descriptive Statistics
+    - Summarize categorical data by using: `value_counts()`
+    - Box Plot: `sns.boxplot(x='drive-wheels', y='price', data=df)`
+    - Scatter Plot: `plt.scatter(x,y)` using matplotlib
+- GroupBy
+    - `dataframe.Groupby()`
+    - Pandas method `pivot()` makes table look like excel sheet
+    - Heat-map `plt.pcolor(df_pivot, cmap='RdBu') plt.colorbar()`
+- ANOVA
+    - Finding correlation between different groups of a categorical variable
+    - F-test score: variation between sample group means divided by variation within sample group
+    - P-value: confidence degree
+    ```python
+    df_anova = df[['make', 'price']]
+    grouped_anova = df_anova.groupyby(['make'])
+    stats.f_oneway() #From sci-kit
+    ```
+- Correlation
+    - Measures to what extent different variables are interdependent
+    - Use `sns.regplot()`
+    - Positive/Negative linear relationship
+- Correlation - Statistics
+    - Pearson Correlation
+        - Correlation coefficient
+            - Close +1: Large positive relationship
+            - Close to -1: Large negative relationship
+            - Close to 0: No relationship
+        - P-value
+            - < 0.001: strong certainty in result
+            - < 0.05: moderate
+            - < 0.1: weak
+            - Greater 0.1: none
+        - `pearson_coef, p_value = stats.pearsonr(df['horsepower'], df['price'])`
