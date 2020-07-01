@@ -168,3 +168,55 @@
         - Visualization
         - Numerical measures for evaluation
         - Comparing Models
+
+### Model Evaluation and Refinement
+- Split dataset into test data and train data
+    - Usually 80 train and 20 test
+    ```python
+    from sklearn.model_selection import train_test_split
+    x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=0.3, random_state=0) #testSize is percentage for testing, randomState is number generator used for random sampling
+    ```
+    - Cross Validation
+        - Most common out-of-sample evaluation metrics
+        - More effective use of data
+        - Divide the data into equal groups and use one group as test and other groups as traning
+    ```python
+    from sklearn.model_selection import cross_val_score
+    scores = cross_val_score(linearModel, x_data, y_data, cv=3) #cv is the number of partitions
+    ```
+    - Retusn the preduction that was obtained for each element when it was in the test set
+    ```python
+    y_hat = cross_val_predict(linearModel2e, x_data, y_data, cv=3)
+    ```
+- Overfitting, Underfitting and Model Seletion
+    - Polynomial order should minimize test or Error MSE
+- Ridge Regression
+    - Prevents overfitting
+    - 𝛼 prevents overfitting and decreases the large magnitude of coefficients
+        - 0, 0.001 0.01, 0.01, 1, 10
+    ```python
+    from sklearn.linear_model import Ridge
+    RidgeModel = Ridge(alpha=0.1)
+    RidgeModel.fit(X,y)
+    y_hat = RidgeModel.predict(X)
+    ```
+- Grid Search
+    - Hyperparameters
+    - Automatically iterates over hyperparameters using corss-validation
+    - Finds which parameters produce the best scores
+    ```python
+    from sklearn.linear_model import Ridge
+    from sklearn.model_selection import GridSearchCV
+
+    parameters1 = [{'alpha':[0.001, 0.1, 1, 10, 100, 1000, 10000, 100000, 1000000]}]
+    RR = Ridge()
+    Grid1 = GridSearchCV(RR, parameters1, cv=4)
+    Grid1.fit(x_data[['horsepower', 'curb-weight', 'engine-size', 'highway-mpg']], y_data)
+    Grid1.best_estimator_
+
+    socres = Grid1.cv_results_
+    scores['mean_test_score']
+
+    #Find best model by seeing normalize hyperparameter test scores
+    parameters = [{'alpha':[1, 10, 100, 1000], 'normalize':[True, False]}]
+    ```
