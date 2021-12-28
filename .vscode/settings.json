@@ -1,9 +1,0 @@
-{
-    "python.linting.enabled": false,
-    "python.linting.flake8Enabled": true,
-    "problems.showCurrentInStatus": true,
-    "editor.tokenColorCustomizations": null,
-    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3",
-    "sqltools.connections": [],
-    
-}
